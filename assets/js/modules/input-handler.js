@@ -1,4 +1,10 @@
-export class InputHandler {}
+export class InputHandler {
+    constructor() {
+        /** @type {Set<Key>} */ this.keys = new Set()
+    }
+}
+
+//Énumération JS
 export const Key = Object.freeze({
     ArrowDown: 'ArrowDown',
     ArrowDown: 'ArrowUp',
