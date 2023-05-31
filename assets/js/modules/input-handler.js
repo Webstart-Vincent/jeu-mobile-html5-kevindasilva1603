@@ -18,9 +18,9 @@ export class InputHandler {
 //Énumération JS
 export const Key = Object.freeze({
     ArrowDown: 'ArrowDown',
-    ArrowDown: 'ArrowUp',
-    ArrowDown: 'ArrowLeft',
-    ArrowDown: 'ArrowRight',
+    ArrowUp: 'ArrowUp',
+    ArrowLeft: 'ArrowLeft',
+    ArrowRight: 'ArrowRight',
     Space: 'Space',
     Enter: 'Enter',
 })
