@@ -19,7 +19,7 @@ export class Game {
 
         this.background = new Background(this.ctx)
 
-        this.player = new Player(this.ctx)
+        this.player = new Player(this)
 
         this.animate(0)
     }

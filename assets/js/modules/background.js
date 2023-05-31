@@ -1,7 +1,7 @@
 export class Background {
     destinationX = 0
     destinationY = 0
-    width = 930
+    width = 800
     speed = 60
 
     /**
@@ -37,3 +37,5 @@ export class Background {
         if (this.destinationX <= -this.width) this.destinationX = 0
     }
 }
+
+;('./assets/img/Background-930x360.jpg')
